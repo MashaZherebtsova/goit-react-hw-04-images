@@ -4,6 +4,7 @@ import propTypes from 'prop-types';
 import css from './ImageGallery.module.css'
 
 export function ImageGallery({images,onImageClick}) {
+  
   return (
     
     <ul className={css.ImageGallery}>
